@@ -264,17 +264,22 @@ textarea {
 }
 
 body {
-  margin: 0;
+  margin: 100px;
+
 }
 
 .center-me {
   display: flex;
-  justify-content: center;
   align-items: center;
-
-  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .font-big {
   font-size: xx-large;
+}
+
+.remove-margins {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
